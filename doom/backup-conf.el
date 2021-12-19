@@ -1,6 +1,7 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
+
 (add-to-list 'load-path "~/.config/doom/doom-nano-testing")
-(require 'load-nano)
+;(require 'load-nano)
 (require 'nano-writer)
 
 (setq user-full-name "Daniel Biasiotto"
@@ -16,67 +17,28 @@
                  :height 160
                  :weight 'light))
 
-;(setq doom-theme 'doom-city-lights)
-(setq fancy-splash-image "~/.config/doom/splash.png")
+(set-face-attribute 'org-document-title nil
+                    :family "Roboto Slab"
+                    :weight 'semi-bold
+                    :height 300)
+(set-face-attribute 'org-level-1 nil
+                    :family "Roboto"
+                    :weight 'regular
+                    :height 200)
+(set-face-attribute 'org-level-2 nil
+                    :family "Roboto"
+                    :weight 'regular
+                    :height 190)
+(set-face-attribute 'org-level-3 nil
+                    :family "Roboto"
+                    :weight 'regular
+                    :height 180)
+(set-face-attribute 'org-level-4 nil
+                    :family "Roboto"
+                    :weight 'regular
+                    :height 160)
 
-;; Easier to match with a bspwm rule:
-;;   bspc rule -a 'Emacs:emacs-everywhere' state=floating sticky=on
-(setq emacs-everywhere-frame-name-format "emacs-everywhere")
-(add-hook 'emacs-everywhere-init-hooks #'hide-mode-line-mode)
-;; Semi-center it over the target window, rather than at the cursor position
-;; (which could be anywhere).
-(defadvice! my-emacs-everywhere-set-frame-position (&rest _)
-  :override #'emacs-everywhere-set-frame-position
-  (cl-destructuring-bind (width . height)
-      (alist-get 'outer-size (frame-geometry))
-    (set-frame-position (selected-frame)
-                        (+ emacs-everywhere-window-x
-                           (/ emacs-everywhere-window-width 2)
-                           (- (/ width 2)))
-                        (+ emacs-everywhere-window-y
-                           (/ emacs-everywhere-window-height 2)))))
-
-
-;; ORG & Friends
-
-(setq org-directory "~/org/"
-
-      org-todo-keywords
-        '((sequence "TODO(t)" "NEXT(n)" "WAIT(w@/!)" "|" "DONE(d!)" "CANC(c@)")
-          (sequence "TBR" "READING" "|" "READ")
-          (sequence "TBW" "|" "WATCHED")
-          (sequence "BUG" "|" "FIXED"))
-
-        org-superstar-headline-bullets-list '( ?◦)
-        org-superstar-item-bullet-alist '((?- . ?‣)
-                                          (?+ . ?•)
-                                          (?* . ?◦))
-        org-ellipsis "⬎")
-
-(after! org
-  (set-face-attribute 'org-document-title nil
-                      :family "Roboto Slab"
-                      :weight 'semi-bold
-                      :height 300)
-  (set-face-attribute 'org-level-1 nil
-                      :family "Roboto"
-                      :weight 'regular
-                      :height 200)
-  (set-face-attribute 'org-level-2 nil
-                      :family "Roboto"
-                      :weight 'regular
-                      :height 190)
-  (set-face-attribute 'org-level-3 nil
-                      :family "Roboto"
-                      :weight 'regular
-                      :height 180)
-  (set-face-attribute 'org-level-4 nil
-                      :family "Roboto"
-                      :weight 'regular
-                      :height 160))
-
-(use-package! mixed-pitch
-  :after org
+(use-package mixed-pitch
   :hook
   (text-mode . mixed-pitch-mode)
   (org-roam-mode . mixed-pitch-mode)
@@ -102,6 +64,89 @@
 	    'font-lock-comment-face
 	    'line-number
 	    'line-number-current-line))
+
+;(setq doom-theme 'doom-city-lights)
+(setq fancy-splash-image "~/.config/doom/splash.png")
+
+;; Easier to match with a bspwm rule:
+;;   bspc rule -a 'Emacs:emacs-everywhere' state=floating sticky=on
+(setq emacs-everywhere-frame-name-format "emacs-everywhere")
+(add-hook 'emacs-everywhere-init-hooks #'hide-mode-line-mode)
+;; Semi-center it over the target window, rather than at the cursor position
+;; (which could be anywhere).
+(defadvice! my-emacs-everywhere-set-frame-position (&rest _)
+  :override #'emacs-everywhere-set-frame-position
+  (cl-destructuring-bind (width . height)
+      (alist-get 'outer-size (frame-geometry))
+    (set-frame-position (selected-frame)
+                        (+ emacs-everywhere-window-x
+                           (/ emacs-everywhere-window-width 2)
+                           (- (/ width 2)))
+                        (+ emacs-everywhere-window-y
+                           (/ emacs-everywhere-window-height 2)))))
+
+(after! org
+  (setq org-todo-keywords
+        '((sequence "TODO(t)" "NEXT(n)" "WAIT(w@/!)" "|" "DONE(d!)" "CANC(c@)")
+          (sequence "TBR" "READING" "|" "READ")
+          (sequence "TBW" "|" "WATCHED")
+          (sequence "BUG" "|" "FIXED"))))
+
+(setq org-superstar-headline-bullets-list '( ?◦))
+;;                                            "⚀"
+;;                                            "⚁"
+;;                                            "⚂"
+;;                                            "⚃"))
+
+(setq org-superstar-item-bullet-alist '(
+                                  (?- . ?‣)
+                                  (?+ . ?•)
+                                  (?* . ?◦)
+                                  ))
+(setq org-ellipsis "⬎")
+(setq org-superstar-special-todo-items t)
+(use-package! org-superstar
+  :hook (org-mode . org-superstar-mode)
+  :init
+  :config
+        (setq org-superstar-todo-bullet-alist
+        '(("TODO" . ?☐)
+          ("WAIT" . ?⛬)
+          ("DONE" . ?☑)
+          ("WATCHED" . ?☑)
+          ("TBR" . ?☐)
+          ("TBW" . ?☐)
+          ("READING" . ?☕)
+          ("READ" . ?☑)
+          ("CANC" . ?☓)
+          ("BUG" . ?🐛)
+          ("FIXED" . ?🞊))))
+
+
+(setq org-directory "~/org/"
+      org-roam-directory "~/org/roam/")
+;(defvar-local journal-file-path   (concat org-roam-directory "journal.org"))
+;(defvar-local inbox-file-path     (concat org-roam-directory "inbox.org"))
+;(defvar-local agenda-file-path    (concat org-roam-directory "agenda.org"))
+;(defvar-local templates-directory (concat org-directory "templates/"))
+
+(defun org-archive-done-tasks ()
+  (interactive)
+  (org-map-entries
+   (lambda ()
+     (org-archive-subtree)
+     (setq org-map-continue-from (org-element-property :begin (org-element-at-point))))
+   "/DONE" 'agenda))
+
+(setq display-line-numbers-type nil)
+(setq lsp-ui-sideline-enable nil
+      lsp-enable-symbol-highlighting nil)
+(setq-default c-basic-offset 2)
+(setq-default tab-width 2)
+(setq display-time-day-and-date t)
+(setq display-time-format "%I:%M %p")
+(setq display-time-default-load-average nil)
+;(display-time)
 
 (use-package deft
   :bind
@@ -133,18 +178,16 @@
 
 (use-package! org-roam
   :after org
-  :hook
-  (org-roam-mode . kb/org-hide-properties)
   :bind
   ("C-c r" . org-roam-node-find)
   ("C-c i" . org-roam-node-insert)
-  ("C-M-i" . completion-at-point)
+  ;("C-M-i" . completion-at-point)
   :init
   (setq +org-roam-open-buffer-on-find-file nil
         org-roam-directory (concat org-directory "/roam/")
         org-roam-mode-section-functions
         (list 'org-roam-backlinks-section
-	      'org-roam-reflinks-section
+              'org-roam-reflinks-section
               'org-roam-unlinked-references-section)
         hp/org-roam-function-tags '("compilation" "argument" "journal" "video"
                                     "podcast" "concept" "tool" "data" "author"
@@ -152,39 +195,38 @@
   (add-to-list 'magit-section-initial-visibility-alist
                '(org-roam-unlinked-references-section . hide))
   :custom
-  (org-roam-directory "~/org/roam")
   (org-roam-completion-everywhere t)
-  (org-roam-capture-templates
-  '(("d" "default" plain
-     "%?"
-      :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
-      :unnarrowed t)
-    ("b" "book note" plain
-     (file "~/org/templates/BookNote.org")
-      :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
-      :unnarrowed t)
-    ("a" "author" plain
-      (file "~/org/templates/Author.org")
-      :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
-      :unnarrowed t)
-    ("v" "video note" plain
-     (file "~/org/templates/VideoNote.org")
-      :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
-      :unnarrowed t)
-    ("c" "podcast note" plain
-      (file "~/org/templates/PodcastNote.org")
-      :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
-      :unnarrowed t)
-    ("n" "article note" plain
-      (file "~/org/templates/ArticleNote.org")
-      :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
-      :unnarrowed t)
-    ("p" "project" plain
-      (file "~/org/templates/Project.org")
-      :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
-      :unnarrowed t)
-    )
-  )
+  ;(org-roam-capture-templates
+  ;'(("d" "default" plain
+  ;    "%?"
+  ;    :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
+  ;    :unnarrowed t)
+  ;  ("b" "book note" plain
+  ;    (file "~/org/templates/BookNote.org")
+  ;    :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
+  ;    :unnarrowed t)
+  ;  ("a" "author" plain
+  ;    (file "~/org/templates/Author.org")
+  ;    :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
+  ;    :unnarrowed t)
+  ;  ("v" "video note" plain
+  ;    (file "~/org/templates/VideoNote.org")
+  ;    :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
+  ;    :unnarrowed t)
+  ;  ("c" "podcast note" plain
+  ;    (file "~/org/templates/PodcastNote.org")
+  ;    :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
+  ;    :unnarrowed t)
+  ;  ("n" "article note" plain
+  ;    (file "~/org/templates/ArticleNote.org")
+  ;    :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
+  ;    :unnarrowed t)
+  ;  ("p" "project" plain
+  ;    (file "~/org/templates/Project.org")
+  ;    :if-new (file+head "${slug}.org" "#+title: ${title}\n#+date: %U\n")
+  ;    :unnarrowed t)
+  ;  )
+  ;)
   :config
   ;; Org-roam interface
   (cl-defmethod org-roam-node-hierarchy ((node org-roam-node))
@@ -273,7 +315,7 @@
 
   (setq org-roam-node-display-template
         (concat  "${backlinkscount:16} ${functiontag} ${directories}${hierarchy} ${othertags}"))
-) ;; org-roam
+)
 
 ;; From https://github.com/org-roam/org-roam/wiki/Hitchhiker%27s-Rough-Guide-to-Org-roam-V2#hiding-properties
 (defun kb/org-hide-properties ()
@@ -305,7 +347,8 @@
 
 (general-define-key
  :keymaps 'org-mode-map
- "C-c p t" 'kb/org-toggle-properties)
+ "C-c p t" 'kb/org-toggle-properties
+ )
 
 (use-package! org-roam-ui
     :after org-roam
