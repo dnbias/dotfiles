@@ -1,0 +1,8 @@
+[Default Applications]
+x-scheme-handler/eclipse+command=_nix_store_mzqpld0zq47vdkkcphrhb8bbyn1fhs1l-dbeaver-ce-21.0.1_dbeaver_.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-6XDG50.desktop
+application/lrf=calibre-lrfviewer.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-Telegram Desktop-A5HD20.desktop;userapp-Telegram Desktop-6XDG50.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;

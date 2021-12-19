@@ -1,0 +1,42 @@
+{"level":30,"time":"2021-09-21T09:44:29.372Z","pid":23366,"hostname":"ray","msg":"app ready"}
+{"level":30,"time":"2021-09-21T09:44:29.372Z","pid":23366,"hostname":"ray","msg":"starting version 5.5.0"}
+{"level":30,"time":"2021-09-21T09:44:29.372Z","pid":23366,"hostname":"ray","msg":"media access status"}
+{"level":30,"time":"2021-09-21T09:44:29.386Z","pid":23366,"hostname":"ray","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-09-21T09:44:29.387Z","pid":23366,"hostname":"ray","msg":"got slow spellcheck setting true"}
+{"level":30,"time":"2021-09-21T09:44:29.387Z","pid":23366,"hostname":"ray","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1138,\"height\":882,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/nix/store/iqp7wncyyq604bd1g2vypqlygkkz2abd-signal-desktop-5.5.0/lib/Signal/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/nix/store/iqp7wncyyq604bd1g2vypqlygkkz2abd-signal-desktop-5.5.0/lib/Signal/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":760,\"y\":68}"}
+{"level":30,"time":"2021-09-21T09:44:29.431Z","pid":23366,"hostname":"ray","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-09-21T09:44:29.431Z","pid":23366,"hostname":"ray","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-09-21T09:44:29.431Z","pid":23366,"hostname":"ray","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-09-21T09:44:29.441Z","pid":23366,"hostname":"ray","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-09-21T09:44:29.449Z","pid":23366,"hostname":"ray","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-09-21T09:44:29.452Z","pid":23366,"hostname":"ray","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-09-21T09:44:29.453Z","pid":23366,"hostname":"ray","msg":"Finish ensuring permissions in 4ms"}
+{"level":30,"time":"2021-09-21T09:44:30.459Z","pid":23366,"hostname":"ray","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-09-21T09:44:30.463Z","pid":23366,"hostname":"ray","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-09-21T09:44:30.463Z","pid":23366,"hostname":"ray","msg":"showing main window"}
+{"level":30,"time":"2021-09-21T09:44:30.681Z","pid":23366,"hostname":"ray","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2021-09-21T09:44:30.695Z","pid":23366,"hostname":"ray","msg":"deleteAllStickers: deleted 0 files"}
+{"level":30,"time":"2021-09-21T09:44:30.696Z","pid":23366,"hostname":"ray","msg":"deleteAllDraftAttachments: deleted 0 files"}
+{"level":30,"time":"2021-09-21T09:44:30.696Z","pid":23366,"hostname":"ray","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-09-21T09:44:30.704Z","pid":23366,"hostname":"ray","msg":"Ensuring file permissions for 416 files"}
+{"level":50,"time":"2021-09-21T09:44:30.705Z","pid":23366,"hostname":"ray","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
+{"level":50,"time":"2021-09-21T09:44:30.705Z","pid":23366,"hostname":"ray","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
+{"level":30,"time":"2021-09-21T09:44:30.712Z","pid":23366,"hostname":"ray","msg":"Finish ensuring permissions in 16ms"}
+{"level":30,"time":"2021-09-21T09:44:30.966Z","pid":23366,"hostname":"ray","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"fullscreen\":false,\"width\":764,\"height\":1042,\"x\":1154,\"y\":2}"}
+{"level":30,"time":"2021-09-21T09:44:30.966Z","pid":23366,"hostname":"ray","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-09-21T09:44:31.766Z","pid":23366,"hostname":"ray","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"fullscreen\":false,\"width\":764,\"height\":1042,\"x\":1154,\"y\":2}"}
+{"level":30,"time":"2021-09-21T09:44:31.766Z","pid":23366,"hostname":"ray","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-09-21T09:44:31.791Z","pid":23366,"hostname":"ray","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-09-21T09:44:31.807Z","pid":23366,"hostname":"ray","msg":"App loaded - time: 2536"}
+{"level":30,"time":"2021-09-21T09:44:31.807Z","pid":23366,"hostname":"ray","msg":"SQL init - time: 92"}
+{"level":30,"time":"2021-09-21T09:44:31.807Z","pid":23366,"hostname":"ray","msg":"Preload - time: 631"}
+{"level":30,"time":"2021-09-21T09:44:31.807Z","pid":23366,"hostname":"ray","msg":"WebSocket connect - time: -1632217470377"}
+{"level":30,"time":"2021-09-21T09:44:31.807Z","pid":23366,"hostname":"ray","msg":"Processed count: null"}
+{"level":30,"time":"2021-09-21T09:44:31.807Z","pid":23366,"hostname":"ray","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-09-21T09:44:34.391Z","pid":23366,"hostname":"ray","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"fullscreen\":false,\"width\":806,\"height\":1042,\"x\":1112,\"y\":2}"}
+{"level":30,"time":"2021-09-21T09:44:34.391Z","pid":23366,"hostname":"ray","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-09-21T09:44:39.315Z","pid":23366,"hostname":"ray","msg":"close event {\"shouldQuit\":false}"}
+{"level":30,"time":"2021-09-21T09:44:39.316Z","pid":23366,"hostname":"ray","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2021-09-21T09:44:39.320Z","pid":23366,"hostname":"ray","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2021-09-21T09:44:39.321Z","pid":23366,"hostname":"ray","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2021-09-21T09:44:39.321Z","pid":23366,"hostname":"ray","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}

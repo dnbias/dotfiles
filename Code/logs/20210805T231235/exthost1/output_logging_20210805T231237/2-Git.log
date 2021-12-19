@@ -1,0 +1,207 @@
+Looking for git in: git
+Using git 2.31.1 from git
+Opening repository for path='/home/dnbias/Downloads' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/100~Classic Rock Drive  Playlist Spotify (2020) [320]  kbps Beats⭐' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/2008.06030.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Algebra e Calcolo.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/BIANCO_916619' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/BIANCO_916619.rar' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Bando_con_Appendice_BonusCovid_Bando_2020_2021.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Biasiotto_Daniel_Contratto Buddy 2021_Tutor_200-100-50 ore.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Biasiotto_Daniel_Lettera incarico trattamento dati studenti collab parziali.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Calendario Definitivo Esame Orale Diritto (EGID) Giugno 2021.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Contratto Buddy 2021_Coordinatore 100-150-200ore.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Contratto Buddy 2021_Tutor_200-100-50 ore.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Crusader Kings 3 [FitGirl Repack]' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/C’è il rischio di una carestia in Corea del Nord [Inoreader].pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/DANIEL-BIASIOTTO-914117.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Film' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Final Fantasy VII Steam Edition' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Final.Fantasy.VI-CODEX' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Forza Horizon 4 Ultimate Edition 1.332.904.2 ElAmigos' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/IGG-kentucky.route.zero.v2.3.0.9.GOG' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/IGG-kentucky.route.zero.v2.3.0.9.GOG.rar' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/ISO' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Justice.League.Snyders.Cut.2021.HDRip.X264-WORM' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/La misurazione della potenzialità economico-strutturale.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Legacy of Kain Soul Reaver [GOG]' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Lettera incarico trattamento dati studenti collab parziali.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Metal Gear Solid 2 - Substance PC + Crack.Fix' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Metal Gear Solid V - Ground Zeroes [FitGirl Repack]' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Metal.Gear.Solid.V.The.Phantom.Pain-CPY' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Octopath.Traveler-CPY' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/One.Hour.Photo.2002.720p.BRRip.x264.AC3-REKD' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/PS2_Dragon Quest VIII_NTSC_U' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Return_Of_The_Obra_Dinn-Razor1911' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Shin Megami Tensei Nocturne.rar' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/Tales of Berseria [qoob RePack]' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Telegram Desktop' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/Unity-2020.2.6f1' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/_browser' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/_torrent' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/archlinux-2021.08.01-x86_64.iso' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/canvas - 1.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/dump_release_tntvillage_2019-08-30.zip' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/eMule' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+Opening repository for path='/home/dnbias/Downloads/grad_buddy_2021_2022_sede_poli.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/guida-2019_270Triennale_con_syllabus_-_gennaio_2020.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/preonic_rev3_default.bin' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/reg_decr_3572_2020_svolgimento_tirocini_curriculari.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/simulazione_esonero1920_soluzioni.pdf' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dnbias/Downloads/steam' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /usr)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}

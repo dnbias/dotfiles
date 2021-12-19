@@ -1,0 +1,58 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateFavoritesToolWindow">
+      <i c="1" l="1636870053872" />
+    </e>
+    <e n="ActivateProjectToolWindow">
+      <i c="1" l="1636870053192" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="22" l="1636861184510" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="2" l="1636861223997" />
+    </e>
+    <e n="FileChooser.NewFolder">
+      <i c="1" l="1636859919740" />
+    </e>
+    <e n="JumpToLastWindow">
+      <i c="1" l="1636860474914" />
+    </e>
+    <e n="MarkNotificationsAsRead">
+      <i c="1" l="1636861369319" />
+    </e>
+    <e n="Move">
+      <i c="3" l="1636861218806" />
+    </e>
+    <e n="RenameElement">
+      <i c="1" l="1636861255118" />
+    </e>
+    <e n="SaveAll">
+      <i c="10" l="1636870411545" />
+    </e>
+    <e n="ToggleBookmark">
+      <i c="3" l="1636860477450" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="2" l="1632222964809" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1636859809331" />
+    </e>
+    <e n="com.intellij.ide.SystemHealthMonitor$3">
+      <i c="1" l="1636861332715" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="3" l="1636861361017" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="4" l="1636866327959" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1636861238494" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="3" l="1636870057811" />
+    </e>
+  </component>
+</application>

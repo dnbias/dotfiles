@@ -1,0 +1,44 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAASAAAAAAAAAB38AAAQVAAAEggAAAAIAAAd9AAAEEwAAAAAAAAAAB4AAAASCAAAAAgAAB30AAAQT"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIgA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAlwD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACAAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOwA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAM0A////AAAC/AAABBIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "key": "/home/dnbias/Downloads/Telegram Desktop/Domande.txt",
+        "pathtoebook": "/home/dnbias/Downloads/Telegram Desktop/Domande.txt",
+        "timestamp": "2021-06-12T17:55:12.797Z",
+        "title": "Domande"
+      },
+      {
+        "authors": [
+          "Gian Piero Brunetta"
+        ],
+        "key": "/home/dnbias/Books/eBooks/ 1905-2003.epub",
+        "pathtoebook": "/home/dnbias/Books/eBooks/ 1905-2003.epub",
+        "timestamp": "2021-06-11T19:47:05.110Z",
+        "title": "Guida alla storia del cinema italiano: 1905-2003"
+      },
+      {
+        "key": "/home/dnbias/Downloads/Telegram Desktop/Diritto concetti chiave.txt",
+        "pathtoebook": "/home/dnbias/Downloads/Telegram Desktop/Diritto concetti chiave.txt",
+        "timestamp": "2021-05-21T12:22:23.967Z",
+        "title": "Diritto concetti chiave"
+      }
+    ]
+  }
+}

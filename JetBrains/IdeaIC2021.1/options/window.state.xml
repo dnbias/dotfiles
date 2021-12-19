@@ -1,0 +1,35 @@
+<application>
+  <component name="WindowManager">
+    <frame x="0" y="0" width="1916" height="1042" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="1129" y="353" key="FileChooserDialogImpl" timestamp="1636859945983">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1129" y="353" key="FileChooserDialogImpl/0.0.1920.1080" timestamp="1636859945983" />
+    <state x="452" y="171" key="SettingsEditor" timestamp="1632223273144">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="452" y="171" key="SettingsEditor/0.0.1920.1080" timestamp="1632223273144" />
+    <state x="1233" y="735" width="582" height="613" key="WELCOME_SCREEN" timestamp="1636859960957">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1233" y="735" width="582" height="613" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1636859960957" />
+    <state x="1084" y="645" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1636859990235">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1084" y="645" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080" timestamp="1636859990235" />
+    <state x="940" y="223" width="802" height="743" key="new project wizard" timestamp="1636859959797">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="940" y="223" width="802" height="743" key="new project wizard/0.0.1920.1080" timestamp="1636859959797" />
+  </component>
+</application>

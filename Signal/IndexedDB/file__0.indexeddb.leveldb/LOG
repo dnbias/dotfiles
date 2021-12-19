@@ -1,0 +1,7 @@
+2021/09/21-11:44:30.557 5bc9 Reusing MANIFEST /home/dnbias/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/09/21-11:44:30.557 5bc9 Recovering log #6
+2021/09/21-11:44:30.557 5bc9 Reusing old log /home/dnbias/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/000006.log 
+2021/09/21-11:44:30.671 5b6e Level-0 table #11: started
+2021/09/21-11:44:30.676 5b6e Level-0 table #11: 463 bytes OK
+2021/09/21-11:44:30.681 5b6e Delete type=0 #6
+2021/09/21-11:44:30.681 5b6e Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

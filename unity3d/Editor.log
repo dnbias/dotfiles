@@ -1,0 +1,90 @@
+Initiating legacy licensing moduleUnable to load libnotify
+Desktop is 1920 x 1080 @ 60 Hz
+[Package Manager] Server::Start -- Port 60757 was selected
+npm ERR! missing: unity-editor-home@2.2.1, required by unity-editor@5.7.0
+npm ERR! missing: unityeditor-cloud-hub@0.0.15, required by unity-editor@5.7.0
+npm ERR! missing: unityeditor-collab-toolbar@0.7.16, required by unity-editor@5.7.0
+ListPackages failed, output: {
+  "name": "unity-editor",
+  "version": "5.7.0",
+  "problems": [
+    "missing: unity-editor-home@2.2.1, required by unity-editor@5.7.0",
+    "missing: unityeditor-cloud-hub@0.0.15, required by unity-editor@5.7.0",
+    "missing: unityeditor-collab-toolbar@0.7.16, required by unity-editor@5.7.0"
+  ],
+  "dependencies": {
+    "unity-editor-home": {
+      "required": "2.2.1",
+      "missing": true
+    },
+    "unityeditor-cloud-hub": {
+      "required": "0.0.15",
+      "missing": true
+    },
+    "unityeditor-collab-toolbar": {
+      "required": "0.7.16",
+      "missing": true
+    }
+  }
+}
+
+npm WARN unity-editor@5.7.0 No repository field.
+npm WARN unity-editor@5.7.0 No license field.
+
+ COMMAND LINE ARGUMENTS:
+/nix/store/nvyabmw3knph6dabp8mpiz6xcrmradx0-unity-editor-2018.3.0xf2/opt/Unity/Editor/Unity
+[0706/111529:ERROR:browser_main_loop.cc(161)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+[0706/111530:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0706/111530:ERROR:sandbox_linux.cc(308)] InitializeSandbox() called with multiple threads in process gpu-process
+[0706/111530:ERROR:gpu_channel_host.cc(148)] GpuChannelHost::CreateViewCommandBuffer failed.
+[0706/111530:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0706/111530:ERROR:sandbox_linux.cc(308)] InitializeSandbox() called with multiple threads in process gpu-process
+[0706/111530:ERROR:gpu_channel_host.cc(148)] GpuChannelHost::CreateViewCommandBuffer failed.
+[0706/111530:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0706/111530:ERROR:gpu_channel_host.cc(148)] GpuChannelHost::CreateViewCommandBuffer failed.
+[0706/111530:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0706/111530:ERROR:sandbox_linux.cc(308)] InitializeSandbox() called with multiple threads in process gpu-process
+[0706/111530:ERROR:gpu_process_transport_factory.cc(402)] Failed to establish GPU channel.
+Build target: OSXUniversal found and added!
+Build target: WindowsStoreApps found and added!
+Build target: Win64 found and added!
+Build target: Win found and added!
+Build target: LinuxUniversal found and added!
+Build target: Linux64 found and added!
+Build target: Linux found and added!
+Build target: iOS found and added!
+Build target: tvOS found and added!
+Build target: PS4 found and added!
+Build target: XboxOne found and added!
+Build target: Android found and added!
+Build target: WebGL found and added!
+Build target: Switch found and added!
+Build target: Lumin found and added!
+Build target: PSM found and added!
+Build target: PSP2 found and added!
+Build target: WiiU found and added!
+Build target: Web found and added!
+Build target: WebStreamed found and added!
+Build target: OSXIntel found and added!
+Build target: OSXIntel64 found and added!
+Build target: BlackBerry found and added!
+Build target: PS3 found and added!
+Build target: N3DS found and added!
+Build target: WP8 found and added!
+Build target: SamsungTV found and added!
+Build target: Tizen found and added!
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+[CEF] Refused to display 'about:blank in a frame because an ancestor violates the following Content Security Policy directive: "frame-ancestors self file:". in about:blank
+[CEF] Refused to display 'about:blank in a frame because an ancestor violates the following Content Security Policy directive: "frame-ancestors self file:". in about:blank
+[CEF] Refused to display 'about:blank in a frame because an ancestor violates the following Content Security Policy directive: "frame-ancestors self file:". in about:blank
+[CEF] Refused to display 'about:blank in a frame because an ancestor violates the following Content Security Policy directive: "frame-ancestors self file:". in about:blank
+[CEF] Refused to display 'about:blank in a frame because an ancestor violates the following Content Security Policy directive: "frame-ancestors self file:". in about:blank
+[CEF] Refused to display 'about:blank in a frame because an ancestor violates the following Content Security Policy directive: "frame-ancestors self file:". in about:blank
+[CEF] Refused to display 'about:blank in a frame because an ancestor violates the following Content Security Policy directive: "frame-ancestors self file:". in about:blank
+[CEF] Refused to display 'about:blank in a frame because an ancestor violates the following Content Security Policy directive: "frame-ancestors self file:". in about:blank
+[CEF] Refused to display 'about:blank in a frame because an ancestor violates the following Content Security Policy directive: "frame-ancestors self file:". in about:blank
+[CEF] Refused to display 'about:blank in a frame because an ancestor violates the following Content Security Policy directive: "frame-ancestors self file:". in about:blank
+[0706/112229:ERROR:browser_main_loop.cc(207)] Gtk: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+[0706/112229:ERROR:browser_main_loop.cc(207)] Gtk: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+[Unity Package Manager (Upm)]
+Parent process [2326] was terminated
