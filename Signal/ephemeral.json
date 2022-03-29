@@ -1,12 +1,12 @@
 {
   "window": {
     "maximized": false,
-    "autoHideMenuBar": true,
+    "autoHideMenuBar": false,
     "fullscreen": false,
-    "width": 806,
-    "height": 1042,
-    "x": 1112,
-    "y": 2
+    "width": 1410,
+    "height": 767,
+    "x": 1,
+    "y": 1
   },
   "spell-check": true
 }

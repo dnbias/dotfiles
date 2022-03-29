@@ -2,17 +2,19 @@
   <component name="JdkInstallerHistory">
     <option name="installedItems">
       <installed-jdk>
-        <option name="fullText" value="Oracle OpenJDK 17.0.1" />
-        <option name="installDir" value="$USER_HOME$/.jdks/openjdk-17.0.1" />
-        <option name="javaHomeDir" value="$USER_HOME$/.jdks/openjdk-17.0.1" />
-        <option name="sha256" value="1c0a73cbb863aad579b967316bf17673b8f98a9bb938602a140ba2e5c38f880a" />
-        <option name="url" value="https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-x64_bin.tar.gz" />
-        <option name="versionText" value="17.0.1" />
+        <option name="fullText" value="Oracle OpenJDK 17.0.2" />
+        <option name="installDir" value="$USER_HOME$/.jdks/openjdk-17.0.2" />
+        <option name="javaHomeDir" value="$USER_HOME$/.jdks/openjdk-17.0.2" />
+        <option name="sha256" value="0022753d0cceecacdd3a795dd4cea2bd7ffdf9dc06e22ffd1be98411742fbb44" />
+        <option name="url" value="https://download.java.net/java/GA/jdk17.0.2/dfd4a8d0985749f896bed50d7138ee7f/8/GPL/openjdk-17.0.2_linux-x64_bin.tar.gz" />
+        <option name="versionText" value="17.0.2" />
       </installed-jdk>
     </option>
   </component>
   <component name="NotRoamableUiSettings">
     <option name="fontFace" value="Iosevka" />
+    <option name="fontScale" value="1.25" />
+    <option name="fontSize" value="18" />
   </component>
   <component name="ProjectPluginTrackerManager">
     <trackers>
@@ -31,34 +33,44 @@
     </trackers>
   </component>
   <component name="PropertiesComponent">
+    <property name="BuildView.Splitter.Proportion" value="0.35195935" />
     <property name="InstalledPluginsSearchHistory" value="emacs" />
-    <property name="MarketplacePluginsSearchHistory" value="emacs&#10;e&#10;git&#10;nord&#10;theme" />
+    <property name="MarketplacePluginsSearchHistory" value="nix&#10;emacs&#10;e&#10;git&#10;nord" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
-    <property name="SettingsSearchHistory" value="font&#10;caret" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.18636364" />
+    <property name="ProjectStructure.TopLevelElements" value="0.17024222" />
+    <property name="SettingsSearchHistory" value="git&#10;lib&#10;libraries&#10;font&#10;caret" />
+    <property name="Vcs.Push.Splitter.Tree.Proportion" value="0.321" />
     <property name="appcds.runOnSecondStart" value="IC-211.7442.40-e703e57c4a11395207314ba4705908f6dbb8fdabb8a29e2a0fe1a8a3f6a9b1fb" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.show.successful.steps.selection.state" value="true" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Dependencies" />
     <property name="defaultJdkConfigured" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Code/Java/EmailClientServer" />
-    <property name="file.gist.reindex.count" value="7" />
-    <property name="fileTypeChangedCounter" value="4" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Uni/III/Prog-III/L/threads/org/prog3/lab/week9/threadpools/Maximum.java&#10;/home/dnbias/Uni/III/Prog-III/L/sockets/org/prog3/lab/week10/Server.java&#10;/home/dnbias/Uni/III/Prog-III/L/FX/Javafx/org/prog3/lab/week7/model/Email.java&#10;/home/dnbias/Uni/III/Prog-III/L/FX/Javafx/org/prog3/lab/week7/ui/ClientController.java&#10;/home/dnbias/Uni/III/Prog-III/L/sockets/org/prog3/lab/week10/Client.java&#10;/home/dnbias/Uni/III/Prog-III/L/threads/org/prog3/lab/week9/threadpools/CallableTest.java&#10;/home/dnbias/Code/Java/EmailClientServer" />
+    <property name="file.gist.reindex.count" value="14" />
+    <property name="fileTypeChangedCounter" value="5" />
     <property name="fileTypeDetectors" value="com.android.tools.idea.fileTypes.profiler.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
+    <property name="got.it.tooltip.reader.mode.got.it" value="1" />
     <property name="ide.memory.adjusted" value="true" />
     <property name="ide.updates.previous.build.number" value="IC-211.7442.40" />
     <property name="ide.updates.whats.new.shown.for" value="211" />
     <property name="ignore.bundled.jre.version.message" value="true" />
     <property name="installed.kotlin.plugin.version" value="211-1.4.32-release-IJ7442.2" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
-    <property name="lastSeenTip" value="neue-Rename.html" />
-    <property name="lastTimeTipsWereShown" value="1636860005523" />
+    <property name="lastSeenTip" value="neue-SearchForGit.html" />
+    <property name="lastTimeTipsWereShown" value="1644017693960" />
     <property name="last_opened_file_path" value="$USER_HOME$/Code/Java/EmailClientServer" />
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1636859960173" />
+    <property name="packagesearch.status.updated.ts" value="1644017686864" />
     <property name="project.wizard.group" value="JavaFX Application" />
     <property name="project.wizard.template" value="JavaFX Application" />
-    <property name="seenTips" value="neue-Rename.html" />
+    <property name="seenTips" value="neue-Rename.html,neue-SearchForGit.html" />
     <property name="selected.color.option.type" value="LINE_NUMBERS_COLOR" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
   </component>

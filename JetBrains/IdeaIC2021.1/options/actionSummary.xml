@@ -1,19 +1,148 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="31" l="1644044451794" />
+    </e>
+    <e n="$Cut">
+      <i c="19" l="1644042017627" />
+    </e>
+    <e n="$Delete">
+      <i c="2" l="1644028095463" />
+    </e>
+    <e n="$Paste">
+      <i c="59" l="1644043671839" />
+    </e>
+    <e n="$Undo">
+      <i c="8" l="1644044184559" />
+    </e>
     <e n="ActivateFavoritesToolWindow">
-      <i c="1" l="1636870053872" />
+      <i c="2" l="1644042835045" />
     </e>
     <e n="ActivateProjectToolWindow">
-      <i c="1" l="1636870053192" />
+      <i c="3" l="1644045879174" />
+    </e>
+    <e n="Back">
+      <i c="2" l="1644037535986" />
+    </e>
+    <e n="ChangesView.GroupBy">
+      <i c="1" l="1644045385752" />
+    </e>
+    <e n="ChangesView.Rename">
+      <i c="1" l="1644045522327" />
+    </e>
+    <e n="CheckinProject">
+      <i c="2" l="1644045714020" />
     </e>
     <e n="EditorBackSpace">
-      <i c="22" l="1636861184510" />
+      <i c="1715" l="1644046520149" />
+    </e>
+    <e n="EditorBackwardParagraph">
+      <i c="1" l="1644019461038" />
     </e>
     <e n="EditorChooseLookupItem">
-      <i c="2" l="1636861223997" />
+      <i c="245" l="1644046231524" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="6" l="1644046229005" />
+    </e>
+    <e n="EditorContextInfo">
+      <i c="1" l="1644042862741" />
+    </e>
+    <e n="EditorDelete">
+      <i c="119" l="1644046233659" />
+    </e>
+    <e n="EditorDeleteToWordEnd">
+      <i c="16" l="1644043939991" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="40" l="1644045343763" />
+    </e>
+    <e n="EditorDown">
+      <i c="298" l="1644043958327" />
+    </e>
+    <e n="EditorEnter">
+      <i c="377" l="1644045258326" />
+    </e>
+    <e n="EditorIndentSelection">
+      <i c="1" l="1644043690868" />
+    </e>
+    <e n="EditorLeft">
+      <i c="489" l="1644046519893" />
+    </e>
+    <e n="EditorLineEnd">
+      <i c="4" l="1644041893928" />
+    </e>
+    <e n="EditorLineStart">
+      <i c="3" l="1644043958719" />
+    </e>
+    <e n="EditorNextWord">
+      <i c="13" l="1644043938511" />
+    </e>
+    <e n="EditorPageDown">
+      <i c="1" l="1644032446613" />
+    </e>
+    <e n="EditorPageUp">
+      <i c="1" l="1644023404808" />
+    </e>
+    <e n="EditorPreviousWord">
+      <i c="16" l="1644043935039" />
+    </e>
+    <e n="EditorRight">
+      <i c="342" l="1644046517445" />
+    </e>
+    <e n="EditorSelectSingleLineAtCaret">
+      <i c="1" l="1644042385251" />
+    </e>
+    <e n="EditorToggleColumnMode">
+      <i c="1" l="1644038197804" />
+    </e>
+    <e n="EditorUnindentSelection">
+      <i c="24" l="1644043692405" />
+    </e>
+    <e n="EditorUp">
+      <i c="98" l="1644043959511" />
+    </e>
+    <e n="EmacsStyleIndent">
+      <i c="45" l="1644043698620" />
+    </e>
+    <e n="Exit">
+      <i c="1" l="1644044839937" />
+    </e>
+    <e n="FileChooser.GotoHome">
+      <i c="1" l="1644030392346" />
     </e>
     <e n="FileChooser.NewFolder">
       <i c="1" l="1636859919740" />
+    </e>
+    <e n="FileStructurePopup">
+      <i c="1" l="1644045848903" />
+    </e>
+    <e n="Generate">
+      <i c="10" l="1644042871647" />
+    </e>
+    <e n="GenerateConstructor">
+      <i c="5" l="1644035018871" />
+    </e>
+    <e n="GenerateGetter">
+      <i c="4" l="1644031972245" />
+    </e>
+    <e n="GotoAction">
+      <i c="13" l="1644045832500" />
+    </e>
+    <e n="GotoClass">
+      <i c="1" l="1644033358616" />
+    </e>
+    <e n="GotoFile">
+      <i c="13" l="1644046503406" />
+    </e>
+    <e n="GotoImplementation">
+      <i c="1" l="1644027430898" />
+    </e>
+    <e n="GotoNextError">
+      <i c="3" l="1644032729680" />
+    </e>
+    <e n="HideAllWindows">
+      <i c="2" l="1644026525906" />
     </e>
     <e n="JumpToLastWindow">
       <i c="1" l="1636860474914" />
@@ -21,38 +150,146 @@
     <e n="MarkNotificationsAsRead">
       <i c="1" l="1636861369319" />
     </e>
+    <e n="MethodDown">
+      <i c="1" l="1644039252852" />
+    </e>
+    <e n="MethodUp">
+      <i c="4" l="1644039253419" />
+    </e>
     <e n="Move">
       <i c="3" l="1636861218806" />
     </e>
+    <e n="NewClass">
+      <i c="10" l="1644041854998" />
+    </e>
+    <e n="NewDir">
+      <i c="1" l="1644024788113" />
+    </e>
+    <e n="NextTemplateVariable">
+      <i c="5" l="1644040080130" />
+    </e>
+    <e n="OpenFile">
+      <i c="9" l="1644033393586" />
+    </e>
+    <e n="OverrideMethods">
+      <i c="1" l="1644042875477" />
+    </e>
+    <e n="ProjectView.AutoscrollToSource">
+      <i c="1" l="1644045964348" />
+    </e>
+    <e n="ProjectView.FlattenPackages">
+      <i c="1" l="1644045951891" />
+    </e>
+    <e n="ProjectView.ShowExcludedFiles">
+      <i c="3" l="1644045945682" />
+    </e>
+    <e n="ProjectView.ShowVisibilityIcons">
+      <i c="2" l="1644045949978" />
+    </e>
     <e n="RenameElement">
-      <i c="1" l="1636861255118" />
+      <i c="10" l="1644040072190" />
+    </e>
+    <e n="RenameFile">
+      <i c="1" l="1644022874872" />
+    </e>
+    <e n="Run">
+      <i c="1" l="1644047159721" />
+    </e>
+    <e n="SafeDelete">
+      <i c="1" l="1644040586591" />
     </e>
     <e n="SaveAll">
-      <i c="10" l="1636870411545" />
+      <i c="336" l="1644046521285" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="62" l="1644044191782" />
+    </e>
+    <e n="ShowProjectStructureSettings">
+      <i c="10" l="1644046972092" />
+    </e>
+    <e n="ShowSettings">
+      <i c="5" l="1644047594237" />
+    </e>
+    <e n="Start.Use.Vcs">
+      <i c="1" l="1644045089465" />
     </e>
     <e n="ToggleBookmark">
-      <i c="3" l="1636860477450" />
+      <i c="11" l="1644046125422" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="2" l="1644041782877" />
+    </e>
+    <e n="Vcs.Push">
+      <i c="5" l="1644045799217" />
+    </e>
+    <e n="Vcs.ToggleAmendCommitMode">
+      <i c="2" l="1644045536000" />
+    </e>
+    <e n="Vcs.UpdateProject">
+      <i c="4" l="1644045685134" />
     </e>
     <e n="Vcs.VcsClone">
       <i c="2" l="1632222964809" />
     </e>
+    <e n="ViewInplaceComments">
+      <i c="2" l="1644045869722" />
+    </e>
     <e n="WelcomeScreen.CreateNewProject">
       <i c="1" l="1636859809331" />
+    </e>
+    <e n="com.intellij.build.BuildTreeConsoleView$ConsoleViewHandler$2">
+      <i c="3" l="1644047260044" />
+    </e>
+    <e n="com.intellij.build.SuccessfulStepsToggleAction">
+      <i c="1" l="1644044353453" />
+    </e>
+    <e n="com.intellij.codeInsight.daemon.NavigateAction">
+      <i c="1" l="1644026631203" />
+    </e>
+    <e n="com.intellij.compiler.progress.BuildOutputService$3">
+      <i c="4" l="1644047562050" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="4" l="1644044856124" />
     </e>
     <e n="com.intellij.ide.SystemHealthMonitor$3">
       <i c="1" l="1636861332715" />
     </e>
     <e n="com.intellij.notification.NotificationAction$Simple">
-      <i c="3" l="1636861361017" />
+      <i c="11" l="1644045740058" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
       <i c="4" l="1636866327959" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
-      <i c="1" l="1636861238494" />
+      <i c="26" l="1644046505149" />
+    </e>
+    <e n="com.intellij.openapi.roots.ui.configuration.projectRoot.ModuleStructureConfigurable$AddModuleAction">
+      <i c="1" l="1644029186519" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
-      <i c="3" l="1636870057811" />
+      <i c="16" l="1644047212285" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
+      <i c="10" l="1644045966009" />
+    </e>
+    <e n="com.intellij.ui.AnActionButton$AnActionButtonWrapper">
+      <i c="6" l="1644046975701" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="8" l="1644030383975" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="27" l="1644046504613" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveUpAction">
+      <i c="15" l="1644046414680" />
+    </e>
+    <e n="com.intellij.ui.tabs.impl.JBTabsImpl$SelectNextAction">
+      <i c="1" l="1644039252035" />
+    </e>
+    <e n="com.intellij.ui.tabs.impl.JBTabsImpl$SelectPreviousAction">
+      <i c="1" l="1644039250636" />
     </e>
   </component>
 </application>

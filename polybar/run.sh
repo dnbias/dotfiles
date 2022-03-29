@@ -1,1 +1,1 @@
-/nix/store/4c2fnyal1nzqqkc83r7zimxbfa8c85w8-home-manager-files/.config/polybar/run.sh
+/nix/store/18vr704jawcw3w9y7v1v70gykmjcycpb-home-manager-files/.config/polybar/run.sh

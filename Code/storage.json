@@ -3,6 +3,9 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/dnbias/Downloads/Telegram%20Desktop"
+            },
+            {
                 "folderUri": "file:///home/dnbias/Downloads"
             }
         ]
@@ -41,8 +44,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -51,7 +53,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/dnbias/Downloads",
+                                        "fsPath": "/home/dnbias/Downloads/Telegram Desktop",
+                                        "external": "file:///home/dnbias/Downloads/Telegram%20Desktop",
+                                        "path": "/home/dnbias/Downloads/Telegram Desktop",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/Telegram Desktop"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/dnbias/Downloads",
                                         "path": "/home/dnbias/Downloads",
                                         "scheme": "file"
@@ -359,7 +372,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.toggleFullScreen",
-                                    "label": "&&Full Screen"
+                                    "label": "&&Full Screen",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleZenMode",
@@ -379,8 +393,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -547,8 +560,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -1480,27 +1492,19 @@
             "sideBarBackground": "#252526",
             "statusBarBackground": "#007acc",
             "statusBarNoFolderBackground": "#68217a"
-        },
-        "layoutInfo": {
-            "sideBarSide": "left",
-            "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
-            "activityBarWidth": 48,
-            "sideBarWidth": 194,
-            "statusBarHeight": 22,
-            "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/dnbias/Downloads",
-            "backupPath": "/home/dnbias/.config/Code/Backups/0b86c0d243d40b3181e593261e9e022a",
+            "folder": "file:///home/dnbias/Downloads/Telegram%20Desktop",
+            "backupPath": "/home/dnbias/.config/Code/Backups/fde368792f9c55792afeaa7e4f5eeb1d",
             "uiState": {
-                "mode": 1,
-                "x": 369,
-                "y": 1,
+                "mode": 3,
+                "display": 2764163283184217,
                 "width": 778,
-                "height": 1041
+                "height": 792,
+                "x": 369,
+                "y": 1
             }
         },
         "openedWindows": []

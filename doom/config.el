@@ -7,7 +7,7 @@
       user-mail-address "daniel.biasiotto@edu.unito.it")
 
 (setq doom-font
-      (font-spec :family "Iosevka"
+      (font-spec :family "NotCourierSans"
                  :size 15
                  :weight 'regular)
       doom-variable-pitch-font
@@ -55,23 +55,18 @@
 
 (after! org
   (set-face-attribute 'org-document-title nil
-                      :family "Roboto Slab"
                       :weight 'semi-bold
                       :height 300)
   (set-face-attribute 'org-level-1 nil
-                      :family "Roboto"
                       :weight 'regular
                       :height 200)
   (set-face-attribute 'org-level-2 nil
-                      :family "Roboto"
                       :weight 'regular
                       :height 190)
   (set-face-attribute 'org-level-3 nil
-                      :family "Roboto"
                       :weight 'regular
                       :height 180)
   (set-face-attribute 'org-level-4 nil
-                      :family "Roboto"
                       :weight 'regular
                       :height 160))
 
@@ -84,6 +79,13 @@
   (set-face-attribute 'variable-pitch :height 160 :weight 'light)
   :config
   (pushnew! mixed-pitch-fixed-pitch-faces
+            'org-document-title
+            'org-level-1
+            'org-level-2
+            'org-level-3
+            'org-level-4
+            'org-level-5
+            'org-level-6
 	    'org-date
 	    'org-special-keyword
 	    'org-property-value
@@ -340,3 +342,102 @@
 
 (global-set-key (kbd "M-s") 'ace-window)
 (global-set-key (kbd "C-c w") 'writer-mode)
+
+
+(setq org-latex-pdf-process
+          '("latexmk -pdflatex='pdflatex -interaction nonstopmode' -pdf -bibtex -f %f"))
+
+(setq org-latex-listings t)
+
+(unless (boundp 'org-latex-classes)
+  (setq org-latex-classes nil))
+
+(setq org-latex-classes
+'(("article"
+"\\RequirePackage{fix-cm}
+\\PassOptionsToPackage{svgnames}{xcolor}
+\\documentclass[11pt]{article}
+\\usepackage{sectsty}
+\\usepackage[T1]{fontenc}
+\\usepackage{lmodern}
+\\allsectionsfont{\\sffamily}
+\\usepackage{enumitem}
+\\setlist[description]{style=unboxed,font=\\sffamily\\bfseries}
+\\usepackage{listings}
+\\lstset{frame=single,aboveskip=1em,
+	framesep=.5em,backgroundcolor=\\color{AliceBlue},
+	rulecolor=\\color{Blue},framerule=1pt}
+\\usepackage{xcolor}
+\\newcommand\\basicdefault[1]{\\scriptsize\\color{Black}\\ttfamily#1}
+\\usepackage{titlesec}
+\\newcommand{\\sectionbreak}{\\clearpage}
+\\lstset{basicstyle=\\basicdefault{\\spaceskip1em}}
+\\lstset{literate=
+	    {§}{{\\S}}1
+	    {©}{{\\raisebox{.125ex}{\\copyright}\\enspace}}1
+	    {«}{{\\guillemotleft}}1
+	    {»}{{\\guillemotright}}1
+	    {Á}{{\\'A}}1
+	    {Ä}{{\\\"A}}1
+	    {É}{{\\'E}}1
+	    {Í}{{\\'I}}1
+	    {Ó}{{\\'O}}1
+	    {Ö}{{\\\"O}}1
+	    {Ú}{{\\'U}}1
+	    {Ü}{{\\\"U}}1
+	    {ß}{{\\ss}}2
+	    {à}{{\\`a}}1
+	    {á}{{\\'a}}1
+	    {ä}{{\\\"a}}1
+	    {é}{{\\'e}}1
+	    {í}{{\\'i}}1
+	    {ó}{{\\'o}}1
+	    {ö}{{\\\"o}}1
+	    {ú}{{\\'u}}1
+	    {ü}{{\\\"u}}1
+	    {¹}{{\\textsuperscript1}}1
+            {²}{{\\textsuperscript2}}1
+            {³}{{\\textsuperscript3}}1
+	    {ı}{{\\i}}1
+	    {—}{{---}}1
+	    {’}{{'}}1
+	    {…}{{\\dots}}1
+            {⮠}{{$\\hookleftarrow$}}1
+	    {␣}{{\\textvisiblespace}}1,
+	    keywordstyle=\\color{DarkGreen}\\bfseries,
+	    identifierstyle=\\color{DarkRed},
+	    commentstyle=\\color{Gray}\\upshape,
+	    stringstyle=\\color{DarkBlue}\\upshape,
+	    emphstyle=\\color{Chocolate}\\upshape,
+	    showstringspaces=false,
+	    columns=fullflexible,
+	    keepspaces=true}
+\\usepackage[a4paper,margin=1in,left=1.5in]{geometry}
+\\usepackage{parskip}
+\\makeatletter
+\\makeatother
+[DEFAULT-PACKAGES]
+\\hypersetup{linkcolor=LightBlue,urlcolor=DarkBlue,
+  citecolor=DarkRed,colorlinks=true}
+\\AtBeginDocument{\\renewcommand{\\UrlFont}{\\ttfamily}}
+[PACKAGES]
+[EXTRA]"
+("\\section{%s}" . "\\section*{%s}")
+("\\subsection{%s}" . "\\subsection*{%s}")
+("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+("\\paragraph{%s}" . "\\paragraph*{%s}")
+("\\subparagraph{%s}" . "\\subparagraph*{%s}"))
+
+("report" "\\documentclass[11pt]{report}"
+("\\part{%s}" . "\\part*{%s}")
+("\\chapter{%s}" . "\\chapter*{%s}")
+("\\section{%s}" . "\\section*{%s}")
+("\\subsection{%s}" . "\\subsection*{%s}")
+("\\subsubsection{%s}" . "\\subsubsection*{%s}"))
+
+("book" "\\documentclass[11pt]{book}"
+("\\part{%s}" . "\\part*{%s}")
+("\\chapter{%s}" . "\\chapter*{%s}")
+("\\section{%s}" . "\\section*{%s}")
+("\\subsection{%s}" . "\\subsection*{%s}")
+("\\subsubsection{%s}" . "\\subsubsection*{%s}"))))
