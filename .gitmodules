@@ -1,0 +1,6 @@
+[submodule "doom"]
+	path = doom
+	url = git@github.com:dnbias/emacs.git
+[submodule "ncmpcpp/ncmpcpp-ueberzug"]
+	path = ncmpcpp/ncmpcpp-ueberzug
+	url = https://github.com/alnj/ncmpcpp-ueberzug.git

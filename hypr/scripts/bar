@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+eww --config ~/.config/eww/nice-bar open bar0

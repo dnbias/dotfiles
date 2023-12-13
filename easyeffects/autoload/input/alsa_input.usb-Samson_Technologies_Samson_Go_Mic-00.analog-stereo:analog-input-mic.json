@@ -1,0 +1,6 @@
+{
+    "device": "alsa_input.usb-Samson_Technologies_Samson_Go_Mic-00.analog-stereo",
+    "device-description": "GoMic compact condenser mic Analog Stereo",
+    "device-profile": "analog-input-mic",
+    "preset-name": "Improved Mic"
+}

@@ -1,0 +1,3 @@
+[filesystem "N/A|17.0.9|/dev/sdb3"]
+	timestampResolution = 3010 nanoseconds
+	minRacyThreshold = 5283 microseconds

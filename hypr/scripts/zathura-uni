@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+unidir="/home/dnbias/Documents/Uni/Magistrale/"
+# exrofi="rofi -theme $HOME/.repos/rofi-collection/minimal/minimal.rasi -i -lines 10 -dmenu -p Read"
+exwofi="wofi -i -dmenu -M fuzzy -p Read:"
+
+cd $unidir || exit
+chosen="$(ls {*.pdf,*.epub,*/*.pdf,*/*.epub} -R | $exwofi)"
+zathura "$chosen" || exit

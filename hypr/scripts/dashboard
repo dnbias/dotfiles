@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+eww --config ~/.config/eww/sidebar open bar --toggle
+eww --config ~/.config/eww/dashboard open dashboard --toggle

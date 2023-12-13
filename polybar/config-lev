@@ -1,0 +1,422 @@
+[colors]
+; Main bar bg color 
+background = #00000000
+; Modules bg color
+background-alt = #22242b
+background-alt-2 = #575268
+background-alt-3 = #5B5F78
+; main foreground color 
+foreground = #ff5a5a5a
+foreground-opacity = #ee22222
+; accent color
+accent = #5b94ab
+empty = #00000000
+
+mauve = #d7beda
+black = #131020
+green = #afbea2
+red = #FF8A80
+orange = #e0b089
+cyan = #b8d6d3
+pink = #f299e6
+yellow = #e4c9af
+blue = #6e7899
+teal = #B5E8E0
+gray = #858893
+flamingo = #f2cdcd
+
+[bar/mybar]
+modules-left = bspwm
+modules-center = date
+modules-right = weather sep pulseaudio
+
+
+width = 100%
+height = 22
+offset-x = 0%
+offset-y = 0%
+radius = 0.0
+fixed-center = true
+wm-restack = bspwm
+override-redirect = true
+
+line-height = 7
+line-size = 6
+line-color = #f5f5f5ff
+
+
+foreground = ${colors.foreground}
+background = ${colors.background}
+border-color = ${colors.background}
+border-size = 5
+
+
+; fonts
+font-0 = SF Pro:size=12
+font-1 = WeatherIcons:size=13
+font-2 = SF Pro:weight=bold:size=13
+font-3 = MaterialIcons:size=13
+
+[module/bspwm]
+type = internal/bspwm
+
+ws-icon-0 = 
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 
+ws-icon-default = 
+
+
+; label-focused =  %name%
+label-focused = %index%:%name%
+label-focused-background = ${colors.background}
+label-focused-foreground = ${colors.red}
+label-focused-underline= ${colors.empty}
+label-focused-padding = 1
+
+; label-occupied =  %name%
+label-occupied = %index%:%name%
+label-occupied-background = ${colors.background}
+label-occupied-foreground = ${colors.accent}
+label-occupied-padding = 1
+
+; label-urgent = 𥉉 %name%
+label-urgent = %index%:%name%
+label-urgent-background = ${colors.background}
+label-urgen-foreground = {colors.yellow}
+label-urgent-padding = 1
+
+; label-empty =  %name%
+label-empty = %index%:%name%
+label-empty-background = ${colors.background}
+label-empty-foreground = ${colors.foreground-opacity}
+label-empty-padding = 1
+
+; Separator in between workspaces
+label-separator = |
+label-separator-padding = 3
+label-separator-foreground = ${colors.accent}
+
+[module/date]
+interval = 5
+type = internal/date
+date = 
+date-alt = " %d / %m/ %Y"
+
+time = "%I:%M"
+time-alt = 
+
+format-prefix = %{T4}%{T-}
+format-prefix-foreground = ${colors.empty}
+format-prefix-background = ${colors.empty}
+format-underline = ${colors.empty}
+format-suffix = %{T4}%{T-}
+format-suffix-foreground = ${colors.empty}
+
+label = "%date% %time% " 
+label-foreground = ${colors.accent}
+label-background = ${colors.empty}
+
+[module/battery]
+type = internal/battery
+label-charging = "%percentage%%  "
+label-charging-background = ${colors.empty}
+label-charging-foreground = ${colors.foreground}
+label-discharging-background = ${colors.empty}
+label-discharging-foreground = ${colors.foreground}
+label-discharging = "%percentage%%  "
+
+label-full = "  "
+label-full-background = ${colors.empty}
+label-full-foreground = ${colors.foreground}
+format-full-prefix = %{T3}%{T-}
+format-full-prefix-foreground = ${colors.green}
+format-full-prefix-background = ${colors.background}
+
+format-charging = " <label-charging>"
+format-charging-foreground = ${colors.green}
+format-charging-background = ${colors.empty}
+format-discharging = "<ramp-capacity> <label-discharging>"
+format-discharging-foreground = ${colors.green}
+format-discharging-background = ${colors.empty}
+
+
+ramp-capacity-0 = %{T3} %{T-}
+ramp-capacity-1 = %{T3} %{T-}
+ramp-capacity-2 = %{T3} %{T-}
+ramp-capacity-3 = %{T3} %{T-}
+ramp-capacity-4 = %{T3} %{T-}
+
+
+full-at = 99
+
+battery = BAT0
+adapter = ADP1
+
+poll-interval = 5
+
+[module/wlan]
+type = internal/network
+interface = wlp2s0
+interval = 3.0
+
+format-connected = <ramp-signal><label-connected>
+format-connected-underline = ${colors.empty}
+label-connected = "%essid%"
+label-connected-foreground = ${colors.foreground}
+label-connected-background = ${colors.background}
+
+format-disconnected = <label-disconnected>
+format-disconnected-prefix = "  "
+format-disconnected-prefix-background = ${colors.background}
+format-disconnected-prefix-foreground = ${colors.red}
+label-disconnected = %{A1:networkmanager_dmenu:}%{A-}
+label-disconnected-foreground = ${colors.red}
+label-disconnected-background =  ${colors.background}
+
+ramp-signal-0 = %{T5} %{T-}
+ramp-signal-foreground = ${colors.accent}
+ramp-signal-background = ${colors.background}
+click-left = exec networkmanager_dmenu
+
+[module/backlight]
+type = internal/backlight
+
+card = intel_backlight
+
+use-actual-brightness = true
+
+enable-scroll = true
+
+format = "<label>"
+format-prefix = "  "
+format-background = ${colors.background}
+format-foreground = ${colors.orange}
+label =  "%percentage%%"
+label-foreground = ${colors.foreground}
+label-background = ${colors.background}
+
+[module/space]
+type = custom/text
+content = "    "
+content-background = ${colors.background}
+content-foreground = ${colors.background-alt-2}
+
+
+[module/sep]
+type = custom/text
+content = "    |     "
+content-background = ${colors.background}
+content-foreground = ${colors.blue}
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+sink = alsa_output.pci-0000_12_00.3.analog-stereo
+
+use-ui-max = true
+
+interval = 10
+format-volume = <label-volume>
+format-volume-prefix = " "
+label-font = 3
+format-volume-prefix-foreground = ${colors.accent}
+format-volume-background = ${colors.empty}
+format-volume-foreground = ${colors.accent}
+
+label-volume = %percentage%%
+
+label-muted =" "
+label-muted-background = ${colors.empty}
+label-muted-foreground = ${colors.red}
+
+
+
+[module/mpd]
+type = internal/mpd
+
+host = 127.0.0.1
+port = 6600
+label-song = %{T1}%{T-}%{T6}%title% - %artist% %{T2}%{T-}
+label-song-maxlen = 70
+label-song-ellipsis = true
+format-online = <icon-prev> <toggle> <icon-next> <label-song>
+format-online-background = ${colors.background-alt}
+format-offline = <label-offline>
+label-offline = 🎵 mpd is offline
+interval = 1
+icon-play = 契
+icon-pause = 
+icon-stop = ⏹
+icon-prev = 玲
+icon-next = 怜
+icon-repeat = 
+
+[module/arch]
+type = custom/text
+content = %{T1}%{T-}%{T6}%{T-}%{T2}%{T-}
+click-left = urxvt
+click-right = urxvt -e ranger
+content-background = ${colors.background-alt}
+content-foreground = ${colors.green}
+
+[module/gap]
+type = custom/text
+content = "  "
+content-background = ${colors.background}
+
+[module/r1]
+type = custom/text
+content = %{T4}%{T-}
+content-background = ${colors.background}
+content-foreground = ${colors.background-alt}
+
+[module/l1]
+type = custom/text
+content = %{T4}%{T-}
+content-background = ${colors.background}
+content-foreground = ${colors.background-alt}
+
+[module/cpu2]
+type = internal/cpu
+content-background = ${colors.background}
+content-foreground = ${colors.red}
+
+
+; Seconds to sleep between updates
+; Default: 1
+interval = 0.5
+
+; Default: 80
+; New in version 3.6.0
+warn-percentage = 95
+
+
+; Available tags:
+;   <label> (default)
+;   <bar-load>
+;   <ramp-load>
+;   <ramp-coreload>
+format = <label>
+
+; Format used when average CPU load (same as %percentage%) reaches warn-percentage
+; If not defined, format is used instead.
+; Available tags:
+;   <label-warn>
+;   <bar-load>
+;   <ramp-load>
+;   <ramp-coreload>
+; New in version 3.6.0
+; format-warn = <label-warn>
+
+; Available tokens:
+;   %percentage% (default) - total cpu load averaged over all cores
+;   %percentage-sum% - Cumulative load on all cores
+;   %percentage-cores% - load percentage for each core
+;   %percentage-core[1-9]% - load percentage for specific core
+label = CPU %percentage%%
+
+; Available tokens:
+;   %percentage% (default) - total cpu load averaged over all cores
+;   %percentage-sum% - Cumulative load on all cores
+;   %percentage-cores% - load percentage for each core
+;   %percentage-core[1-9]% - load percentage for specific core
+; New in version 3.6.0
+label-warn = CPU %percentage%%
+
+; Spacing (number of spaces, pixels, points) between individual per-core ramps
+ramp-coreload-spacing = 0
+ramp-coreload-0 = ▁
+ramp-coreload-1 = ▂
+ramp-coreload-2 = ▃
+ramp-coreload-3 = ▄
+ramp-coreload-4 = ▅
+ramp-coreload-5 = ▆
+ramp-coreload-6 = ▇
+ramp-coreload-7 = █
+
+[module/weather]
+type = custom/script
+exec = busctl --user -j get-property io.ntfd /weather openweathermap.strings RenderedTemplate | jq -r .data
+interval = 60
+label-font = 2
+label-foreground = ${colors.accent}
+
+
+[module/wireless-network]
+type = internal/network
+interface = wlp40s0
+interface-type = wireless
+
+; Seconds to sleep between updates
+; Default: 1
+interval = 3.0
+
+; Test connectivity every Nth update
+; A value of 0 disables the feature
+; NOTE: Experimental (needs more testing)
+; Default: 0
+;ping-interval = 3
+
+; @deprecated: Define min width using token specifiers (%downspeed:min% and %upspeed:min%)
+; Minimum output width of upload/download rate
+; Default: 3
+udspeed-minwidth = 5
+
+; Accumulate values from all interfaces
+; when querying for up/downspeed rate
+; Default: false
+accumulate-stats = true
+
+; Consider an `UNKNOWN` interface state as up.
+; Some devices like USB network adapters have
+; an unknown state, even when they're running
+; Default: false
+unknown-as-up = true
+
+; The unit used for displaying network speeds
+; For example if set to the empty string, a speed of 5 KB/s is displayed as 5 K
+; Default: B/s
+; New in version 3.6.0
+speed-unit = ''
+
+format-connected = <ramp-signal> <label-connected>
+
+; Available tags:
+;   <label-disconnected> (default)
+format-disconnected = <label-disconnected>
+
+; Available tags:
+;   <label-connected> (default)
+;   <label-packetloss>
+;   <animation-packetloss>
+format-packetloss = <label-connected>
+
+; All labels support the following tokens:
+;   %ifname%    [wireless+wired]
+;   %local_ip%  [wireless+wired]
+;   %local_ip6% [wireless+wired]
+;   %essid%     [wireless]
+;   %signal%    [wireless]
+;   %upspeed%   [wireless+wired]
+;   %downspeed% [wireless+wired]
+;   %netspeed%  [wireless+wired] (%upspeed% + %downspeed%) (New in version 3.6.0)
+;   %linkspeed% [wired]
+;   %mac%       [wireless+wired] (New in version 3.6.0)
+
+; Default: %ifname% %local_ip%
+label-connected = %netspeed%
+label-connected-foreground = ${colors.accent}
+
+; Default: (none)
+label-disconnected = not connected
+label-disconnected-foreground = #66ffffff
+
+; Only applies if <ramp-signal> is used
+ramp-signal-0 = 😱
+ramp-signal-1 = 😠
+ramp-signal-2 = 😒
+ramp-signal-3 = 😊
+ramp-signal-4 = 😃
+ramp-signal-5 = 😈

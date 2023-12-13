@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Easy Effects
+Comment=Easy Effects Service
+Exec=easyeffects --gapplication-service
+Icon=easyeffects
+StartupNotify=false
+Terminal=false
+Type=Application

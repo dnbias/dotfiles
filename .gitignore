@@ -1,0 +1,17 @@
+**/Cache/
+**/cache/
+Youtube**
+Youtube\ Music/*
+discord/*
+Code/*
+Code - OSS/*
+**/databases/*
+**/Session\ Storage/*
+**/Code\ Cache/*
+**/*DB/
+**/js/*
+deluge/
+**/*.pkey
+BraveSoftware/
+JetBrains/
+emacs/

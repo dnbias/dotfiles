@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+
+# This script can be used to simulate mouse click and drag'n'drop with keyboard key.
+# click 1 - left mouse button (the default if no arguments provided)
+# click 2 - middle mouse button
+# click 3 - right mouse button
+# click 2 Shift_L - Press Shift key with middle mouse button (you can use any other
+# modifier key instead)
+#
+# IMPORTANT: Do not forget to find your keyboard device name with "xinput list" command
+# and change XINPUT_DEVICE below. Use "xinput test 'your keyboard name'" to be sure
+# that you found correct device name.
+
+(
+  XINPUT_DEVICE="5"
+  if [[ -z "$1" ]]; then set -- "1"; fi
+  if [[ -n "$2" ]]; then xdotool keydown --clearmodifiers "$2"; fi
+  xdotool click $1
+  # xdotool mousedown $1
+  # while read event; do
+    # if [[ $event == *release* ]]; then
+      # xdotool mouseup $1
+      # if [[ -n "$2" ]]; then xdotool keyup "$2"; fi
+      # break; fi; done < <(xinput test "$XINPUT_DEVICE")
+)&

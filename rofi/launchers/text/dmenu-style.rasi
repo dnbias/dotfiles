@@ -1,0 +1,73 @@
+configuration {
+    font: 							"agave 10";
+    fixed-num-lines: 				true;
+    show-icons: 					false;
+    sidebar-mode: 					false;
+    scroll-method: 					1;
+    window-format: 					"[{w}] ··· {c} ···   {t}";
+    click-to-exit: 					true;
+    combi-hide-mode-prefix: 		false;
+    display-window: 				"";
+    display-windowcd: 				"";
+    display-run: 					"";
+    display-ssh: 					"";
+    display-drun: 					"";
+    display-combi: 					"";
+}
+
+@import "styles/black.rasi"
+
+* {
+    background-color:             	@bg;
+    foreground-color:               @fg;
+    text-color:               @fg;
+}
+
+
+#window {
+  anchor: north;
+  location: north;
+  width: 100%;
+  height: 2.9%;
+  // background-color: @base-bg;
+  margin: 0px 0px 0% 0px;
+  children: [ horibox ];
+}
+#horibox {
+  background-color: @transparent;
+  orientation: horizontal;
+  children: [ prompt, textbox-prompt-colon, entry, listview ];
+}
+#prompt {
+  text-color: @blue;
+  padding: 0.7em 0px 0px 10px;
+  background-color: @transparent;
+}
+#textbox-prompt-colon  {
+  expand: false;
+  str: "";
+  padding: 0.7em 0px 0.7em 0px;
+  text-color: @blue;
+  background-color: @transparent;
+}
+#entry {
+  padding: 0.7em 0px 0px 0px;
+  text-color: @fg;
+  expand: false;
+  width: 8em;
+}
+#listview {
+  padding: 0px;
+  background-color: @transparent;
+  layout: horizontal;
+  spacing: 1px;
+  lines: 100;
+}
+#element {
+  background-color: @transparent;
+  padding: 0.7em 0px 0px 0.7em;
+}
+#element selected {
+  border: 0px 0px;
+  text-color: @blue;
+}

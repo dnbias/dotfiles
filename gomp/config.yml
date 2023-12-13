@@ -1,0 +1,12 @@
+MPD_PORT : "6600"
+MUSIC_DIRECTORY : "~/Music"
+DEFAULT_IMAGE_PATH : "~/Pictures/cover.png"
+
+ADDITIONAL_PADDING_X : 11
+ADDITIONAL_PADDING_Y : 18
+
+IMAGE_WIDTH_EXTRA_X  : -0.7
+IMAGE_WIDTH_EXTRA_Y  : -2.6
+
+CACHE_DIR : "~/.cache/gomp/"
+CACHE_FILE : "~/.cache/gomp/cache"
