@@ -181,7 +181,7 @@
                       :width "100%"
                       :height "20px"
                       :anchor "top center")
-  :stacking "bt"
+  :stacking "fg"
   :exclusive true
   :focusable false
   (bar0))
@@ -194,7 +194,7 @@
                       :width "100%"
                       :height "20px"
                       :anchor "top center")
-  :stacking "bt"
+  :stacking "fg"
   :exclusive true
   :focusable false
   (bar1))
