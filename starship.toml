@@ -24,7 +24,7 @@ symbol = " "
 
 [directory]
 read_only = " 󰌾"
-style = "blue"
+style = "light blue"
 
 [docker_context]
 symbol = " "
