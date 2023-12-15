@@ -5,4 +5,4 @@
 --italic-text=always
 
 # Set the theme to "TwoDark"
---theme="rougee"
+--theme="ansi"
