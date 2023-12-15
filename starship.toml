@@ -1,5 +1,5 @@
 [character]
-success_symbol = "[](green) "
+success_symbol = "[](light green) "
 error_symbol = "[](red) "
 
 [cmd_duration]
